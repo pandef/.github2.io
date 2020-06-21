@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.history:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Profile:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.future:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+  float: left;
+  line-height: 55px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+
+
+
+
+
+.content-sentents{
+  padding-top:100px;
+  display:none;
+}
+
+.content-sentents h2{
+  border-bottom: 4px solid blue;
+  width:200px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 30px;
+  font-size:35px;
+
+}
+
+
+.content-sentents h4{
+  padding:20px 0 50px 0;
+}
+
+.wrapper-contents{
+  margin:0 auto;
+  text-align: center;
+  background-color: #f7f7f7;
+  height:800px;
+}
+
+
+
+.content-image{
+  width:750px;
+  height:432px;
+  margin:0 auto;
+  position:relative;
+  display:none;
+}
+
+.img1{
+  width:100%;
+  height:100%;
+}
+
+
+.kami1{
+  height:320px;
+  width:112px;
+  position:absolute;
+  top:108px;
+  left:60px;
+}
+
+.kami2{
+  height:100%;
+  width:100%;
+  display: none;
+}
+
+
+.yazirusi1 {
+  color: white;
+  display: inline-block;
+  opacity: 0.4;
+  border-radius: 2px;
+  height:190px;
+  width:100%;
+  float:left;
+  background-color: gray;
+  font-size: 30px;
+  padding-top:130px;
+}
+
+.kami3{
+  height:320px;
+  width:113px;
+  position:absolute;
+  top:108px;
+  left:173px;
+}
+
+.kami4{
+  height:100%;
+  width:100%;
+  display: none;
+}
+
+
+.yazirusi2 {
+  color: white;
+  display: inline-block;
+  opacity: 0.4;
+  border-radius: 2px;
+  height:190px;
+  width:100%;
+  float:left;
+  background-color: gray;
+  font-size: 30px;
+  padding-top:130px;
+}
+
+
+
+.kami5{
+  height:320px;
+  width:113px;
+  position:absolute;
+  top:108px;
+  left:287px;
+}
+
+.kami6{
+  height:100%;
+  width:100%;
+  display: none;
+}
+
+
+.yazirusi3 {
+  color: white;
+  display: inline-block;
+  opacity: 0.4;
+  border-radius: 2px;
+  height:190px;
+  width:100%;
+  float:left;
+  background-color: gray;
+  font-size: 30px;
+  padding-top:130px;
+}
+
+
+.kami7{
+  height:320px;
+  width:113px;
+  position:absolute;
+  top:108px;
+  left:399px;
+}
+
+.kami8{
+  height:100%;
+  width:100%;
+  display: none;
+}
+
+
+.yazirusi4 {
+  color: white;
+  display: inline-block;
+  opacity: 0.4;
+  border-radius: 2px;
+  height:190px;
+  width:100%;
+  float:left;
+  background-color: gray;
+  font-size: 30px;
+  padding-top:130px;
+}
+
+
+.kami9{
+  height:320px;
+  width:111px;
+  position:absolute;
+  top:108px;
+  left:511px;
+}
+
+.kami10{
+  height:100%;
+  width:100%;
+  display: none;
+}
+
+
+.yazirusi5 {
+  color: white;
+  display: inline-block;
+  opacity: 0.4;
+  border-radius: 2px;
+  height:190px;
+  width:100%;
+  float:left;
+  background-color: gray;
+  font-size: 30px;
+  padding-top:130px;
+}
+
+
+.kami11{
+  height:320px;
+  width:120px;
+  position:absolute;
+  top:108px;
+  left:622px;
+}
+
+.kami12{
+  height:100%;
+  width:100%;
+  display: none;
+}
+
+
+.yazirusi6 {
+  color: white;
+  display: inline-block;
+  opacity: 0.4;
+  border-radius: 2px;
+  height:190px;
+  width:100%;
+  float:left;
+  background-color: gray;
+  font-size: 30px;
+  padding-top:130px;
+}
+
+
+
+
+
+
+
+
+.modal-wrapper2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal1 {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+
+.fa-times {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  color: black;
+  cursor: pointer;
+  width:30px;
+  height:30px;
+  font-size: 30px;
+
+}
+
+
+footer{
+  transition: all 0.5s;
+}
+
+
+footer img {
+  width: 125px;
+
+}
+
+
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+.container4{
+  width:400px;
+  margin:0 auto;
+  position: relative;
+}
+
+
+.container5{
+  width:400px;
+  margin:0 auto;
+}
+
+
+
+.lighthouse{
+  height:45px;
+  width:115px;
+  position: absolute;
+  top:80px;
+  left:0;
+}
+
+.en{
+  height:60px;
+  width:70px;
+  position: absolute;
+  top:30px;
+  left:150px;
+}
+
+.hirehub{
+  height:44.77px;
+  width:120px;
+  position: absolute;
+  top:80px;
+  left:255px;
+}
+
+
+
+.lighthouse:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.en:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.hirehub:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.container5 a {
+  float: left;
+  line-height: 65px;
+  padding: 0 5px;
+  color: white;
+  display: block;
+}
